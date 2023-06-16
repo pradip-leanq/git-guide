@@ -4,7 +4,7 @@
 
 ### Branches
 
-- `main` - main branch
+- `main or master` - main branch
 - `dev` - development branch
 - `feat/` - feature branch
 - `fix/` - bug fix branch
@@ -12,23 +12,23 @@
 
 ### Main Branch
 
-Main branch is the main branch of the project. It is the branch that is deployed to production. It is protected and cannot be pushed to directly. It can only be updated by merging a pull request.
+Main branch is the main branch of the project. It is the branch that is deployed to production. It is protected and cannot be pushed to directly. It can only be updated by merging a pull request from development or hot fix branch .
 
 ### Development Branch
 
-Development branch is the branch that is used for development. It is protected and cannot be pushed to directly. It can only be updated by merging a pull request.
+Development branch is the branch that is used for development. It is protected and cannot be pushed to directly. It can only be updated by merging a pull request from feature branch or bug fix branch.
 
 ### Feature Branch
 
-Feature branch is the branch that is used for developing a new feature. It is created from the development branch. It is protected and cannot be pushed to directly. It can only be updated by merging a pull request.
+Feature branch is the branch that is used for developing a new feature. It is created from the development branch.
 
 ### Bug Fix Branch
 
-Bug fix branch is the branch that is used for fixing a bug. It is created from the development branch. It is protected and cannot be pushed to directly. It can only be updated by merging a pull request.
+Bug fix branch is the branch that is used for fixing a bug. It is created from the development branch.
 
 ### Hotfix Branch
 
-Hotfix branch is the branch that is used for fixing a bug in production. It is created from the main branch. It is protected and cannot be pushed to directly. It can only be updated by merging a pull request.
+Hotfix branch is the branch that is used for fixing a bug in production. It is created from the main branch.
 
 ### Pull Requests
 
