@@ -4,7 +4,7 @@
 
 ### Branches
 
-- `main or master` - main branch
+- `main` - main branch
 - `dev` - development branch
 - `feat/` - feature branch
 - `fix/` - bug fix branch
@@ -33,6 +33,12 @@ Hotfix branch is the branch that is used for fixing a bug in production. It is c
 ### Pull Requests
 
 Pull requests are used to merge a branch into another branch. Pull requests are required to be reviewed and approved by at least one other developer before they can be merged.
+
+<!-- add image git-flow.svg  -->
+
+### Git Flow Image
+
+![Git Flow](./git-flow.svg)
 
 <!-- merge workflow -->
 
